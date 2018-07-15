@@ -420,6 +420,21 @@
     <article id="post-Day6" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/07/13/Day6/">组合数据类型</a>
+    </h1>
+  
+
+        
+        <a href="/2018/07/13/Day6/" class="archive-article-date">
+  	<time datetime="2018-07-13T01:38:17.083Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-07-13</time>
+</a>
+        
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="列表的修改"><a href="#列表的修改" class="headerlink" title="列表的修改"></a>列表的修改</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">一、 List数据，首先它可以存储各种数据类型，比如：数值，字符串,布尔型，等等，其次，列表中的元素可以</span><br><span class="line">随时进行删除，修改，增加其长度随之变化，同时列表也是有序的，可以用循环进行遍历。</span><br><span class="line"></span><br><span class="line">二、 声明与赋值</span><br><span class="line">1、声明列表同时进行赋值</span><br><span class="line">list1 = [1,2,3,4,5]</span><br><span class="line">list2 = [<span class="string">'one'</span>,<span class="string">'to'</span>]</span><br><span class="line">list3 = [<span class="string">'2'</span>,<span class="string">'22'</span>]</span><br><span class="line"></span><br><span class="line">列表是有序的，那么通过<span class="keyword">for</span>  <span class="keyword">in</span> 方式可以进行快速遍历</span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> list1:</span><br><span class="line">    <span class="built_in">print</span>(item,end = <span class="string">""</span>)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(len(list1))</span><br><span class="line">    <span class="built_in">print</span>(i)</span><br><span class="line"></span><br><span class="line">2、声明一个空列表，后续进行添加元素</span><br><span class="line">list1 = list() 此时 python会生成一个空列表，即:[]</span><br><span class="line">空列表没有任何值，长度为0</span><br></pre></td></tr></table></figure>
